@@ -1,4 +1,4 @@
-package com.workintech.model;
+package com.workintech.Model;
 
 public class Wardrobe {
     private int width;
