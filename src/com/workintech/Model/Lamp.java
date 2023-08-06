@@ -1,12 +1,14 @@
-package com.workintec.Model;
+package com.workintech.Model;
+
+import com.workintech.Enum.LampType;
 
 public class Lamp {
     private boolean battery;
     private int globRating;
 
-    private LambType style ;
+    private LampType style ;
 
-    public Lamp(boolean battery, int globRating, LambType style) {
+    public Lamp(boolean battery, int globRating, LampType style) {
         this.battery = battery;
         this.globRating = globRating;
         this.style = style;
@@ -15,7 +17,7 @@ public class Lamp {
         System.out.println("Lamp is being turned on.");
     }
 
-    public LambType getStyle(){
+    public LampType getStyle(){
         return style;
     }
 

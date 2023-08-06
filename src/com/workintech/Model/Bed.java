@@ -1,4 +1,4 @@
-package com.Bed;
+package com.workintech.Model;
 
 public class Bed {
 
